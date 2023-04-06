@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Popup</title>
+  <script src="./docs/jquery.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.2/dist/semantic.min.css">
+</head>
+<body>
+    <style>
+        button:hover{
+            background-color: rgba(0, 0, 0, 0.2) !important;
+        }
+    </style>
+  <!-- Contenido del popup -->
+  <div class="column">
+    <div class="ui message">
+      <h1 class="ui header">Discord ToolBard</h1>
+      <p>Discord toolbar extension for chrome.</p>
+      <div class="ui segment">
+        <div class="ui two column very relaxed grid">
+          <div class="column center aligned">
+            <button class="ui segment" id="mute" style="cursor: pointer;">
+            </button>
+          </div>
+          <div class="column center aligned">
+            <button class="ui segment" id="deafen" style="cursor: pointer;">  
+            </button>
+          </div>
+        </div>
+        <div class="ui vertical divider">
+          and
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./docs/fomantic.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
