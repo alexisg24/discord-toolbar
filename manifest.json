@@ -1,7 +1,7 @@
 {
-    "name": "Discord Popup Tools",
+    "name": "Discord ToolBar",
     "version": "1.0",
-    "description": "Popup tools for discord",
+    "description": "Discord ToolBar for chrome",
     "manifest_version": 2,
     "permissions": [
       "tabs",
